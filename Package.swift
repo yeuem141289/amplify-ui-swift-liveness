@@ -10,8 +10,8 @@ let package = Package(
     products: [
         .library(
             name: "FaceLiveness",
-            targets: ["FaceLiveness"]),
-            type:.dynamic
+            targets: ["FaceLiveness"],
+            type:.dynamic)
     ],
     dependencies: [
         .package(url: "https://github.com/aws-amplify/amplify-swift", from: "2.49.0")
