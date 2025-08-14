@@ -10,8 +10,9 @@ let package = Package(
     products: [
         .library(
             name: "FaceLiveness",
-            targets: ["FaceLiveness"],
-            type: .dynamic // Vị trí đúng của type: .dynamic
+             type: .dynamic,
+            targets: ["FaceLiveness"]
+           
         )
     ],
     dependencies: [
