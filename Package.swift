@@ -11,7 +11,8 @@ let package = Package(
         .library(
             name: "FaceLiveness",
             targets: ["FaceLiveness"],
-            type:.dynamic)
+            type: .dynamic // Vị trí đúng của type: .dynamic
+        )
     ],
     dependencies: [
         .package(url: "https://github.com/aws-amplify/amplify-swift", from: "2.49.0")
